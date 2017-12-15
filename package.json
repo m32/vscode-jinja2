@@ -1,0 +1,56 @@
+{
+	"name": "jinja2",
+	"displayName": "Jinja2",
+	"description": "Jinja2 Syntax Highlighting for VS Code",
+	"categories": [
+		"Languages"
+	],
+	"keywords": [
+		"jinja2",
+		"python",
+		"syntax"
+	],
+	"version": "1.0.0",
+	"author": {
+		"name": "Grzegorz Makarewicz",
+		"url": "https://github.com/m32"
+	},
+	"publisher": "m32",
+	"maintainers": [
+		"Grzegorz Makareicz (m32)"
+	],
+	"engines": {
+		"vscode": "^1.16.0"
+	},
+	"icon": "icon.png",
+	"homepage": "https://github.com/m32/vscode-jinja2",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/m32/vscode-jinja2"
+	},
+	"bugs": {
+		"url": "https://github.com/m32/vscode-jinja2/issues"
+	},
+	"contributes": {
+		"languages": [
+			{
+				"id": "jinja2",
+				"aliases": [
+					"Jinja2",
+					"jinja2"
+				],
+				"extensions": [
+					".jinja2"
+				],
+				"configuration": "./jinja2.configuration.json"
+			}
+		],
+		"grammars": [
+			{
+				"language": "jinja2",
+				"scopeName": "text.html.jinja2",
+				"path": "./syntaxes/jinja2.tmLanguage.json"
+			}
+		]
+	}
+}
